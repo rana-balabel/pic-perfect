@@ -13,7 +13,7 @@ The pic-perfect is our friendly robot companion. It follows you wherever you go,
 
 ##  ⚙️ Our Tech Stack
 
-<img width="279" alt="image" src="https://github.com/rana-balabel/pic-perfect/assets/78990245/5a04f974-5bec-4a90-a811-4b369817c864">
+<img width="279" alt="image" src="https://github.com/rana-balabel/pic-perfect/assets/78990245/5a04f974-5bec-4a90-a811-4b369817c864"> <br>
 - **Hardware**: The robot was built using the Viam Rover Kit and Raspberry Pi 4. We mounted our own webcam for better positioning of the camera. We had initially planned to 3D print a camera stand to achieve a better camera perspective. However, due to unforeseen challenges and time constraints, we were unable to continue with this concept.
 - **Backend**: We utilized Python to establish connections with the Viam robot, access the necessary pre-trained models for our design, and augment our image processing capabilities. For recognizing hand gestures, we used MediaPipe and Tensorflow to recognize the "thumb's up" hand sign while facial recognition was done through openCV and a Haar Cascade Classifier.
 - **Frontend**: We designed a simple and straightforward user interface with the primary goal of offering users an attractive platform for viewing their images.
